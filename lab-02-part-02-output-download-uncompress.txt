@@ -464,5 +464,5 @@ No output.
 
 ==========
 26. How many files were in the archive.  What were their names?  Write out your answers below.
-----------
+-------
 We dont know.
