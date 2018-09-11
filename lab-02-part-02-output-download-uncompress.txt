@@ -186,7 +186,7 @@ unzip
 Copy and paste the output below.
 ----------
 
-
+No output.
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
@@ -196,6 +196,59 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
+1002/
+'3D Objects'/
+ aadrvark/
+ aardvark/
+ AppData/
+'Application Data'@
+ C++/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ GameMakerPlayer/
+'GameMaker-Studio 1.4'/
+ IntelGraphicsProfiles/
+'Jihosoft Android Phone Recovery'/
+ Links/
+'Local Settings'@
+ MAtlab.m
+ MicrosoftEdgeBackups/
+ Min.m
+ mtec/
+ mtec1002/
+ Music/
+'My Documents'@
+ NetHood@
+'New folder'/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.0.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.1.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.2.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.blf
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TM.blf
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ PicStream/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
 
 
 
@@ -208,7 +261,7 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+No output.
 
 
 ==========
@@ -220,6 +273,8 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
+stuff/
+stuff/hello.txt
 
 
 
@@ -230,6 +285,8 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
+stuff/
+stuff/hello.txt
 
 
 
@@ -238,6 +295,62 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
+ 1002/
+'3D Objects'/
+ aadrvark/
+ aardvark/
+ AppData/
+'Application Data'@
+ C++/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ GameMakerPlayer/
+'GameMaker-Studio 1.4'/
+ hello.txt
+ IntelGraphicsProfiles/
+'Jihosoft Android Phone Recovery'/
+ Links/
+'Local Settings'@
+ MAtlab.m
+ MicrosoftEdgeBackups/
+ Min.m
+ mtec/
+ mtec1002/
+ Music/
+'My Documents'@
+ NetHood@
+'New folder'/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.0.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.1.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.2.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.blf
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TM.blf
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ PicStream/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ stuff/
+ stuff.tar
+ Templates@
+ Tracing/
+ Videos/
 
 
 
@@ -248,6 +361,62 @@ gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
+1002/
+'3D Objects'/
+ aadrvark/
+ aardvark/
+ AppData/
+'Application Data'@
+ C++/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ GameMakerPlayer/
+'GameMaker-Studio 1.4'/
+ hello.txt
+ IntelGraphicsProfiles/
+'Jihosoft Android Phone Recovery'/
+ Links/
+'Local Settings'@
+ MAtlab.m
+ MicrosoftEdgeBackups/
+ Min.m
+ mtec/
+ mtec1002/
+ Music/
+'My Documents'@
+ NetHood@
+'New folder'/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.0.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.1.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.2.regtrans-ms
+ NTUSER.DAT{cfa7fbb3-dd35-11e7-914f-448a5b979d5a}.TxR.blf
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TM.blf
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{cfa7fbb4-dd35-11e7-914f-448a5b979d5a}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ PicStream/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ stuff/
+ stuff.tar.gz
+ Templates@
+ Tracing/
+ Videos/
 
 
 
@@ -271,7 +440,7 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
-
+No output.
 
 
 ==========
@@ -291,8 +460,9 @@ REMEMBER to use the -o flag and specifiy a filenmae that ends in .tar.gz
 Write out the commands that you used to do this.
 ----------
 
-
+No output.
 
 ==========
 26. How many files were in the archive.  What were their names?  Write out your answers below.
 ----------
+We dont know.
